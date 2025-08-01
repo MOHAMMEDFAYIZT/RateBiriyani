@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - GECTCR Biriyani Ratings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h1>🍛 GECTCR Biriyani Ratings</h1>
+            <div class="input-group">
+                <input type="email" id="loginEmail" placeholder="yourname@gectcr.ac.in">
+                <button id="sendCodeBtn">Send Verification Code</button>
+            </div>
+            <div id="codeSection" class="hidden">
+                <input type="text" id="verificationCode" placeholder="Enter 6-digit code">
+                <button id="verifyBtn">Verify & Continue</button>
+            </div>
+            <div id="loginMessage"></div>
+        </div>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>
